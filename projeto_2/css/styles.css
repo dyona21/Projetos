@@ -17,12 +17,12 @@ h4{
 
 .conteiner{
     background-image: url(../img/898870c8-5d54-4a5a-8465-cd80c72c76b6.jpg); 
-    background-size: auto;
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetir a imagem */
     background-attachment: fixed; /*  o background permaneça fixo enquanto o restante do conteúdo rola:  */
     background-size: 100% auto; /* Largura total e altura proporcional */
     padding: 60px 40px;
+    background-size: cover;
 }
 
 .main-title{
@@ -137,7 +137,6 @@ h4{
 
 .container-1{
     background-image: url(../img/898870c8-5d54-4a5a-8465-cd80c72c76b6.jpg);
-    background-size: auto;
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetir a imagem */
     background-attachment: fixed; /*  o background permaneça fixo enquanto o restante do conteúdo rola:  */
@@ -205,6 +204,71 @@ textarea{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+@media (max-width:1100px) {
+    .main-title {
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+    .second-title h1{
+        font-size: 35px;
+    }
+    .cardapio{
+        width: 100%;
+    }
+
+    .block{
+        left: 300px;
+    }
+}
+  
+  @media (max-width:900px){
+    .main-title{
+        padding: 10px 10px;
+        margin-top: 5px;
+    }
+
+    .block{
+        left: 150px;
+    }
+
+    .container-1{
+        background-size: cover;
+    }
+  }
+
+  @media (max-width: 576px) {
+    
+    .main-title-1{
+        padding: 10px 10px;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .block{
+        left: 38px;
+        font-size: 10px;
+
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="number"],
+    textarea{
+        width: 300px;
+    }
+
+    .container-1{
+        width: 100%;
+        background-size: cover;
+    }
+
+    .field{
+        font-size: 17px;
+    }
+  }
 
 
 
