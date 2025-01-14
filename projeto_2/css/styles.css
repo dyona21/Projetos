@@ -1,0 +1,210 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #f1f1f1;
+}
+
+h1,
+h2,
+h3, 
+h4{
+    color: #faf8f8;
+}
+
+.conteiner{
+    background-image: url(../img/898870c8-5d54-4a5a-8465-cd80c72c76b6.jpg); 
+    background-size: auto;
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-attachment: fixed; /*  o background permaneça fixo enquanto o restante do conteúdo rola:  */
+    background-size: 100% auto; /* Largura total e altura proporcional */
+    padding: 60px 40px;
+}
+
+.main-title{
+    background-color: #f35454;
+    padding: 50px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.second-title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #f35454;
+}
+
+.cardapio{
+    text-align: center;
+    background-color: #f35454;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    position: relative;
+    width: 60%;
+    border: #ffffff double 7px ;
+}
+
+/* Estilos comuns para .pasta-italia e .pizza-italia */
+
+.foods ul {
+    list-style: none;
+    display: block;
+}
+
+.foods h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    color: #f35454;
+
+}
+
+.foods ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding-left: 0; /* Remove o recuo padrão da lista */
+}
+
+.drinks h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: #f1f1f1;
+    color: #f35454;
+}
+.drinks ul {
+    color: #f1f1f1;
+    margin-bottom: 8px;
+    font-size: 20px;
+    list-style: none;
+    display: block;
+}
+/* estilos para os li e h4 da classe food e drink  */
+.main-text-2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #f1f1f1;
+}
+
+.text{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.titles{
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.reservation{
+    top: 30px;
+    position: relative;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: #f35454;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.reservation:hover{
+    background-color: #f35454;
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+
+.main-title-1{
+    color: #f1f1f1;
+    background-color:#f35454;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 45px;
+}
+
+.container-1{
+    background-image: url(../img/898870c8-5d54-4a5a-8465-cd80c72c76b6.jpg);
+    background-size: auto;
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-attachment: fixed; /*  o background permaneça fixo enquanto o restante do conteúdo rola:  */
+    background-size: 100% auto; /* Largura total e altura proporcional */
+    padding: 60px 40px;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    background-color: #f35454;
+    color: #f1f1f1;
+}
+
+input::placeholder {
+    color: #f1f1f1; /* Define a cor do texto do placeholder */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea{
+    width: 400px;
+}
+.form{
+   
+    background-color: #f35454;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.block{
+    display: block;
+    position: relative;
+    left:400px
+}
+
+.box-input{
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn-input {
+    background-color: #f1f1f1;
+    color: #f35454;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+
+.btn-input:hover{
+    background-color: #f35454;
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+.field{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+

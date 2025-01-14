@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reserva Focaccia </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container-1">
+        <h1 class="main-title-1">Faça sua reserva abaixo</h1>
+        <form class="form">
+            <div class="box-input">
+                <label for="name">Titular da reserva <span class="required-field">*</span></label>
+                <input type="text" 
+                    name="nome" 
+                    id="name" 
+                    class="block"
+                    placeholder="Nome da pessoa que está reservando" 
+                    required>
+            </div>
+            <div class="box-input">
+                <label for="date">Data da reserva <span class="required-field">*</span></label>
+                <input type="date" 
+                    name="data" 
+                    id="date" 
+                    class="block"
+                    required>
+            </div>
+            <div class="box-input">
+                <label for="number">Número de pessoas <span class="required-field">*</span></label>
+                <input type="number" 
+                    name="numero" 
+                    id="number" 
+                    class="block"
+                    placeholder="Digite o número de pessoas que virão para a refeição" 
+                    required>
+            </div>
+            <div class="box-input">
+                <label for="description">Observação</label>
+                <textarea name="description" 
+                    id="description"
+                    class="block" 
+                    placeholder="Por exemplo se você quiser pode deixar o seu pedido feito, que ao você chegar ele já estará pronto, 
+                    ou você pode fazer uma crítica construtiva sobre o ambiente e o atendimento.">
+                </textarea>
+            </div>
+                
+                <p class="field">*A reserva fica garantida até as 19:30, com 5 minutos de tolerância, após são canceladas.*</p>
+            <input type="submit" value="Enviar" class="btn-input">
+            <input type="reset" value="Limpar" class="btn-input">
+        </form>
+    </div>
+</body>
+</html>
