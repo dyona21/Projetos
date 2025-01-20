@@ -49,6 +49,21 @@ a:hover{
     font-size: 20px;
 }
 
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #000;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 10px 20px 1px 20px;
+    padding: 15px 15px;
+}
+
+.main-title p{
+    margin-top: 10px;
+}
+
 /* main */
 
 .container{
@@ -61,10 +76,6 @@ a:hover{
 
 .post{
     margin-bottom: 2.5rem;
-}
-
-.post img{
-    margin-top: 3rem;
 }
 
 .post h4{
@@ -108,7 +119,7 @@ input[type="text"]{
     padding: 1.5rem;
     border: 1px solid #ddd;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 5px;
     margin-bottom: 70px;
     text-align: center;
   }
