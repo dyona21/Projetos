@@ -1,0 +1,147 @@
+/* geral */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+body{
+    background-color: #f1f0f0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #4d4c4c;
+    transition: 0.4s;
+}
+
+a:hover{
+    color: #427999;
+}
+/* navbar */
+
+.nav-bar{
+    margin: 10px 20px 10px 20px;
+    padding: 2rem 3rem;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.nav-item h3{
+    font-size: 25px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+/* main */
+
+.container{
+    display: flex;
+    padding: 2rem 2.5rem;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post{
+    margin-bottom: 2.5rem;
+}
+
+.post img{
+    margin-top: 3rem;
+}
+
+.post h4{
+    margin-top:  15px;
+}
+
+/* barra de pesquisa */
+.sidebar {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.side-search input {
+    margin-top: 35px;
+    padding: 1rem;
+   
+}
+
+input[type="text"]{
+    background-color: #f1f0f0;
+    border: 2px solid #ddd;
+}
+
+.btn-input{
+    background-color: #28a745;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding: 15px 15px;
+    font-weight: bolder;
+}
+
+.btn-input:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+  
+.side-search{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .categorias {
+    display: flex;
+    flex-direction: column; /* Alinha itens em uma coluna para que o `.links` ocupe a largura total */
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.links {
+    align-self: flex-start; /* Garante que o próprio item fique alinhado à esquerda */
+    text-align: left; /* Alinha o conteúdo interno (texto) à esquerda */
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.text{
+    text-align: justify;
+}
+
+/* footer */
+
+.footer{
+    margin:  10px 20px 10px 20px;
+    text-align:  center;
+    padding: 20px 20px;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+
+.footer h2{
+    margin-bottom: 8px;
+}
