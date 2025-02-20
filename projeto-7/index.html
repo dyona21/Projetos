@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Questions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <h1>Bem vindo ao Football Questions!</h1>
+        <h4>Um site com vários cards de quiz sobre futebol para você se divertir com amigos ou sozinho.</h4>
+    </header> 
+    <main id="main">
+        <h3>Escolha o seu quiz abaixo:</h3>
+        <button id="artilheirosPL">Top 10 artilheiros da Premier League temporada 2018/2019</button>
+        <button id="brasileirao">Adivinhe os maiores campeões do Brasileirão</button>
+        <button id="artilheirosChampions">Top 10 artilheiros da Champions League temporada 2016/2017</button>
+        <button id="brasileiraoArtilheiros">Adivinhe os maiores artilheiros de todos os tempos do Brasileirão</button>
+        <button id="copaDoMundo">Top 10 artilheiros da história das copas do mundo</button>
+        <button id="equipesBrasileirao">Adivinhe todos os times que participaram do Brasileirão de 2016</button>
+    </main>
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="quizTitle">Titulo do Quiz</h2>
+            <form id="quizForm">
+                <div id="inputsContainer">
+
+                </div>
+                <button type="submit" id="submitQuiz">Enviar</button>
+            </form>
+            <p id="feedback"></p>
+        </div>
+    </div>
+    <footer id="footer">
+        <h4>Desenvolvido por @dyonaLucs</h4>
+        <p>Este site é protegido pelo reCAPTCHA e está sujeito à <a href="#" class="">Política de Privacidade</a> e 
+            aos <a href="#" class="">Termos de Serviço</a> do Google.</p>
+    </footer>
+</body>
+</html>
